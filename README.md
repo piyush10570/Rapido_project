@@ -29,3 +29,5 @@ Driver Ratings Distribution: A histogram or bar chart that shows the frequency o
 Customer vs. Driver Ratings: A scatter plot or a dual-axis chart comparing customer ratings and driver ratings to identify any correlation.
 
 This project uses the segregation approach while creation of the rapido dashboard in order to address , analyze and resolve the problems affecting functionality of the organisation and here are snapshots depicting the segregation approach.
+https://github.com/piyush10570/Rapido_project/blob/main/photo/Screenshot%202025-09-05%20153602.png
+
