@@ -1,33 +1,53 @@
-# Rapido_project
-Project Overview
-This project provides a comprehensive analysis of Rapido's ride-sharing data using SQL for data retrieval and Power BI for data visualization and reporting. The goal is to answer key business questions related to bookings, cancellations, driver and customer ratings, and revenue.
+Rapido_project
+Project Overview 
 
-SQL Questions
-The following questions were addressed using SQL queries to retrieve and manipulate the raw data:
-1.Retrieve all successful bookings: This query filters the dataset to show only rides that were completed successfully.
-2.Find the average ride distance for each vehicle type: This calculates the average distance traveled for different vehicle types, such as bikes, autos, or cabs.
-3.Get the total number of canceled rides by customers: This query provides the total count of rides that were canceled by customers.
-4.List the top 5 customers who booked the highest number of rides: This identifies the most frequent customers based on their total number of bookings.
-5.Get the number of rides canceled by drivers due to personal and car-related issues: This specifically counts cancellations initiated by drivers and categorizes them by the reason provided.
-6.Find the maximum and minimum driver ratings for Prime Sedan bookings: This query determines the highest and lowest ratings given to drivers for a specific vehicle type, "Prime Sedan."
-7.Retrieve all rides where payment was made using UPI: This filters the data to show all bookings that utilized the UPI payment method.
-8.Find the average customer rating per vehicle type: This calculates the average rating given by customers for each vehicle type.
-9.Calculate the total booking value of rides completed successfully: This sums the total value of all successfully completed rides.
-10.List all incomplete rides along with the reason: This query identifies rides that were not completed and provides the corresponding reason for their status.
+This project provides a comprehensive analysis of Rapido's ride-sharing data using
 
-Power BI Questions
-The following questions were addressed by creating interactive visualizations and reports in Power BI, utilizing the data processed by SQL:
+SQL for data retrieval and Power BI for data visualization and reporting. The goal is to answer key business questions related to bookings, cancellations, driver and customer ratings, and revenue. This project uses a segregation approach to create the Rapido dashboard to address, analyze, and resolve functional problems within the organization. The following sections outline the questions addressed using each tool.
+
+SQL Questions The following questions were addressed using SQL queries to retrieve and manipulate the raw data:
+
+Retrieve all successful bookings: This query filters the dataset to show only rides that were completed successfully.
+
+Find the average ride distance for each vehicle type: This calculates the average distance traveled for different vehicle types, such as bikes, autos, or cabs.
+
+Get the total number of canceled rides by customers: This query provides the total count of rides that were canceled by customers.
+
+List the top 5 customers who booked the highest number of rides: This identifies the most frequent customers based on their total number of bookings.
+
+Get the number of rides canceled by drivers due to personal and car-related issues: This specifically counts cancellations initiated by drivers and categorizes them by the reason provided.
+
+Find the maximum and minimum driver ratings for Prime Sedan bookings: This query determines the highest and lowest ratings given to drivers for a specific vehicle type, "Prime Sedan".
+
+Retrieve all rides where payment was made using UPI: This filters the data to show all bookings that utilized the UPI payment method.
+
+Find the average customer rating per vehicle type: This calculates the average rating given by customers for each vehicle type.
+
+Calculate the total booking value of rides completed successfully: This sums the total value of all successfully completed rides.
+
+List all incomplete rides along with the reason: This query identifies rides that were not completed and provides the corresponding reason for their status.
+
+Power BI Questions The following questions were addressed by creating interactive visualizations and reports in Power BI, utilizing the data processed by SQL:
+
 Ride Volume Over Time: A line chart or similar visualization showing the trend of ride volume over a specified period.
+
 Booking Status Breakdown: A pie chart or donut chart illustrating the distribution of different booking statuses (e.g., successful, canceled, incomplete).
+
 Top 5 Vehicle Types by Ride Distance: A bar chart or column chart displaying the top five vehicle types based on the total distance they have covered.
+
 Average Customer Ratings by Vehicle Type: A bar or column chart comparing the average customer ratings across different vehicle types.
+
 Cancelled Rides Reasons: A visualization (e.g., a bar chart or treemap) showing the frequency of different reasons for ride cancellations.
+
 Revenue by Payment Method: A chart that breaks down the total revenue generated by each payment method, such as UPI, cash, or credit card.
+
 Top 5 Customers by Total Booking Value: A bar chart highlighting the top five customers who have the highest total booking value.
+
 Ride Distance Distribution Per Day: A histogram or box plot showing how ride distances are distributed on a daily basis.
+
 Driver Ratings Distribution: A histogram or bar chart that shows the frequency of different driver ratings (e.g., how many drivers received a 5-star rating vs. a 1-star rating).
+
 Customer vs. Driver Ratings: A scatter plot or a dual-axis chart comparing customer ratings and driver ratings to identify any correlation.
 
-This project uses the segregation approach while creation of the rapido dashboard in order to address , analyze and resolve the problems affecting functionality of the organisation and here are snapshots depicting the segregation approach.
-https://github.com/piyush10570/Rapido_project/blob/main/photo/Screenshot%202025-09-05%20153602.png
-
+Here are snapshots that depict the segregation approach: 
+https://github.com/piyush10570/Rapido_project/tree/main/photo
